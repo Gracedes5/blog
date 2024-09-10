@@ -20,7 +20,8 @@ body{
     justify-content: space-between;
     padding: 10px 0;
     margin-top: 10px;
-    border-bottom: 1px solid #ff7a0d
+    border-bottom: 1px solid #ff7a0d;
+    
 }
 .header h1{
     font-size: 36px;
@@ -59,9 +60,9 @@ body{
 }
 .hero button{
     padding: 10px 20px;  
-    background-color: #f18407;
+    background-color: #faf8f6;
     border: none;
-    color: #ffffff;
+    color:#0c0701;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -80,10 +81,11 @@ body{
     flex: 1;
     max-width: 400px;
     padding: 20px;
-    background-color: #faf8f5;
-    border: 0.2px solid rgb(212, 103, 1);
+    background-color: #fcf0db;
+    border: 0.2px solid #ece9e9;
     border-radius: 5px;
 }
+
 .post h3{
     font-size: 20px;
     margin-bottom: 10px;
@@ -92,6 +94,7 @@ body{
     font-size: 16px;
     color: #1d0700;
 }
+
 footer{
     text-align: center;
     padding: 20px 0;
