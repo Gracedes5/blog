@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
+*{margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+background-size: cover;
+background-position: center;
+
+}
+
+body{
+    font-family: "Alegreya", serif;
+    line-height: 1.6;
+    color: #0e0700;
+    padding: 0 20px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    margin-top: 10px;
+    border-bottom: 1px solid #ff7a0d
+}
+.header h1{
+    font-size: 36px;
+    color: linear goldenrod
+    bac
+}
+.navbar a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: #f18407;
+    font-weight: bold;
+}
+.navbar a:hover{
+    color:blue
+}
+.hero{
+    
+    text-align: center;
+    margin: 40px 0;
+    padding: 100px;
+    background-size: cover;
+    background: url(image1.jpeg);
+    background-repeat: no-repeat;
+    background-position: 150pxpx;
+    border-radius: 5px;
+}
+.hero h2{
+    color: #ffffff;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.hero p{
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 28px;
+}
+.hero button{
+    padding: 10px 20px;  
+    background-color: #f18407;
+    border: none;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.hero button:hover{
+    background-color: #0f0101;
+
+}
+.posts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.post{
+    flex: 1;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #faf8f5;
+    border: 0.2px solid rgb(212, 103, 1);
+    border-radius: 5px;
+}
+.post h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.post p{
+    font-size: 16px;
+    color: #1d0700;
+}
+footer{
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid;
+    margin-top: 40px;
+    color: #0e0700;
+    
+}
