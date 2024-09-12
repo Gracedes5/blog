@@ -110,3 +110,15 @@ footer{
     color: #0e0700;
     
 }
+@media (max-width: 768px){
+    .hero{
+        background: url(image\ bk2.jpeg);
+    }
+    .hero h2{
+        color: #070000;
+    }
+    .header{
+        flex-direction: column;
+        margin: 10px;
+    }
+}
