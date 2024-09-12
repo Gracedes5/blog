@@ -115,10 +115,15 @@ footer{
         background: url(image\ bk2.jpeg);
     }
     .hero h2{
-        color: #070000;
+        color: #f7f5f5;
     }
     .header{
         flex-direction: column;
         margin: 10px;
+    }
+    .hero p{
+        color: #ffffff;
+        font-size: 20px;
+       
     }
 }
